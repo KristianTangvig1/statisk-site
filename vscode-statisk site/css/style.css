@@ -27,6 +27,11 @@ body {
     font-weight: bold;
 }
 
+.mainlink{
+    text-decoration: none;
+    color: #333;
+}
+
 .logo span {
     color: crimson;
 }
