@@ -1,19 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FashionRUs | Product</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
 
+    <header class="site-header">
+        <div class="logo">Fashion<span>R</span>Us</div>
+        <nav class="main-nav">
+            <a href="index.html">Categories</a>
+            <a href="#">Brands</a>
+            <a href="#">Seasons</a>
+        </nav>
     </header>
-    <main>
+
+    <main class="container">
+
+        <section class="product-detail">
+
+            <!-- ===== BILLEDE SEKTION ===== -->
+            <div class="product-images">
+                
+                <!-- INDSÆT HOVEDBILLEDE HER -->
+                <img src="images/product-main.jpg" alt="Produkt navn">
+
+                <!-- Ekstra billeder (valgfrit) -->
+                <div class="thumbnail-row">
+                    <img src="images/product-thumb1.jpg" alt="Produkt billede">
+                    <img src="images/product-thumb2.jpg" alt="Produkt billede">
+                    <img src="images/product-thumb3.jpg" alt="Produkt billede">
+                </div>
+
+            </div>
+
+
+            <!-- ===== PRODUKT INFO ===== -->
+            <div class="product-info-detail">
+
+                <h1>Produktnavn</h1>
+                <p class="brand">Brand navn</p>
+
+                <div class="price-box">
+                    <p class="old-price">DKK 899,-</p>
+                    <p class="price">DKK 699,-</p>
+                    <span class="discount-badge">-20%</span>
+                </div>
+
+                <p class="inventory">Inventory number: 1163</p>
+                <p class="color">Color: Blue</p>
+
+                <div class="size-selection">
+                    <label for="size">Choose size:</label>
+                    <select id="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                </div>
+
+                <button class="add-to-basket">Add to basket</button>
+
+                <!-- Hvis produktet er udsolgt -->
+                <!-- Tilføj klassen "disabled" på knappen og indsæt teksten herunder -->
+                <!--
+                <p class="sold-out-text">This product is sold out</p>
+                -->
+
+            </div>
+
+        </section>
 
     </main>
-    <footer>
-        
+
+    <footer class="site-footer">
+        <p>© 2026 FashionRUs</p>
     </footer>
+
 </body>
 </html>
