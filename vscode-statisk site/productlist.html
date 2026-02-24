@@ -1,19 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FashionRUs | Product List</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
 
+    <header class="site-header">
+        <div class="logo">Fashion<span>R</span>Us</div>
+        <nav class="main-nav">
+            <a href="index.html">Categories</a>
+            <a href="#">Brands</a>
+            <a href="#">Seasons</a>
+        </nav>
     </header>
-    <main>
 
+    <main class="container">
+        <h1>Nike</h1>
+
+        <section class="product_list_container">
+
+            <!-- ===== Produkt 1 ===== -->
+            <a href="product.html" class="product-card">
+                <div class="image-wrapper">
+                    <!-- INDSÆT BILLEDE HER -->
+                    <img src="images/product1.jpg" alt="Produkt navn">
+                </div>
+
+                <div class="product-info">
+                    <h2>Produktnavn</h2>
+                    <p class="brand">Brand navn</p>
+                    <p class="price">DKK 599,-</p>
+                </div>
+            </a>
+
+
+            <!-- ===== Produkt 2 (Nedsat) ===== -->
+            <a href="product.html" class="product-card nedsat">
+                <div class="image-wrapper">
+                    <!-- INDSÆT BILLEDE HER -->
+                    <img src="images/product2.jpg" alt="Produkt navn">
+                    <span class="badge">-30%</span>
+                </div>
+
+                <div class="product-info">
+                    <h2>Produktnavn</h2>
+                    <p class="brand">Brand navn</p>
+                    <p class="old-price">DKK 899,-</p>
+                    <p class="price">DKK 629,-</p>
+                </div>
+            </a>
+
+
+            <!-- ===== Produkt 3 (Udsolgt) ===== -->
+            <a href="product.html" class="product-card udsolgt">
+                <div class="image-wrapper">
+                    <!-- INDSÆT BILLEDE HER -->
+                    <img src="images/product3.jpg" alt="Produkt navn">
+                    <span class="sold-out">Sold Out</span>
+                </div>
+
+                <div class="product-info">
+                    <h2>Produktnavn</h2>
+                    <p class="brand">Brand navn</p>
+                    <p class="price">DKK 799,-</p>
+                </div>
+            </a>
+
+
+            <!-- ===== Produkt 4 ===== -->
+            <a href="product.html" class="product-card">
+                <div class="image-wrapper">
+                    <!-- INDSÆT BILLEDE HER -->
+                    <img src="images/product4.jpg" alt="Produkt navn">
+                </div>
+
+                <div class="product-info">
+                    <h2>Produktnavn</h2>
+                    <p class="brand">Brand navn</p>
+                    <p class="price">DKK 499,-</p>
+                </div>
+            </a>
+
+        </section>
     </main>
-    <footer>
-        
+
+    <footer class="site-footer">
+        <p>© 2026 FashionRUs</p>
     </footer>
+
 </body>
 </html>
